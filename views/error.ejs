@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>404 Error Page | Qrawler</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#5995fd" />
+    <meta
+      name="description"
+      content="Qrawler is an application that allow verbit users to download automation tool that will assit them in claiming jobs and amking work easier for them."
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="copyright" content="Legit Crew, https://www.devme.com/" />
+    <meta name="author" content="Kevin kibebe" />
+    <meta name="msapplication-navbutton-color" content="#5995fd" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5995fd" />
+    <meta name="keywords" content="Mpesa,Mpesa callback url register" />
+    <meta property="og:site_name" content="Qrawler" />
+    <meta property="og:url" content="Qrawler" />
+    <meta http-equiv="Content-type" content="text/html;charset:utf-8" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:site" content="" />
+    <meta property="twitter:title" content="@Kevin36285655" />
+    <meta
+      property="twitter:image"
+      content="https://twitter.com/Kevin36285655/photo"
+    />
+    <meta property="twitter:description" content="Life's Simple." />
+    <meta property="twitter:text:title" content="Life's Simple." />
+    <meta property="og:title" content="Qrawler" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:description"
+      content="Qrawler is an application that allow verbit users to download automation tool that will assit them in claiming jobs and amking work easier for them."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
+    <meta name="apple-mobile-web-app-title" content="Qrawler" />
+    <!--webfonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Oswald:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta name="application-name" content="Qrawler" />
+    <meta name="msapplication-TileColor" content="#5995fd" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        height: 100vh;
+        background: -webkit-repeating-linear-gradient(
+          -45deg,
+          #71b7e6,
+          #69a6ce,
+          #b98acc,
+          #ee8176,
+          #b98acc,
+          #69a6ce,
+          #9b59b6
+        );
+        background-size: 400%;
+      }
+      #error-page {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        right: 15%;
+        bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+      }
+      #error-page .content {
+        max-width: 600px;
+        text-align: center;
+      }
+      .content h2.header {
+        font-size: 18vw;
+        line-height: 1em;
+        position: relative;
+      }
+      .content h2.header:after {
+        position: absolute;
+        content: attr(data-text);
+        top: 0;
+        left: 0;
+        right: 0;
+        background: -webkit-repeating-linear-gradient(
+          -45deg,
+          #71b7e6,
+          #69a6ce,
+          #b98acc,
+          #ee8176,
+          #b98acc,
+          #69a6ce,
+          #9b59b6
+        );
+        background-size: 400%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+        animation: animate 10s ease-in-out infinite;
+      }
+      @keyframes animate {
+        0% {
+          background-position: 0 0;
+        }
+        25% {
+          background-position: 100% 0;
+        }
+        50% {
+          background-position: 100% 100%;
+        }
+        75% {
+          background-position: 0% 100%;
+        }
+        100% {
+          background-position: 0% 0%;
+        }
+      }
+      .content h4 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 2em;
+        max-width: 600px;
+        position: relative;
+      }
+      .content h4:after {
+        position: absolute;
+        content: attr(data-text);
+        top: 0;
+        left: 0;
+        right: 0;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .content p {
+        font-size: 1.2em;
+        color: #0d0d0d;
+      }
+      .content .btns {
+        margin: 25px 0;
+        display: inline-flex;
+      }
+      .content .btns a {
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        border: 2px solid #69a6ce;
+        color: #69a6ce;
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+      }
+      .content .btns a:hover {
+        background: #69a6ce;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="error-page">
+      <div class="content">
+        <h2 class="header" data-text="404">404</h2>
+        <h4 data-text="Opps! Page not found">Opps! Page not found</h4>
+        <p>
+          Sorry, the page you're looking for doesn't exist. If you think
+          something is broken, report a problem.
+        </p>
+        <div class="btns">
+          <a href="/">return home</a>
+          <a href="mailto:kibebekevin@gmail.com">report problem</a>
+        </div>
+        <center>
+          <p style="margin-bottom: 20px">
+            &copy;<%= new Date().getFullYear() %>.Qrawler All Rights Reserved
+          </p>
+        </center>
+      </div>
+    </div>
+    <script
+      src="//code.tidio.co/yijtlq2xmcygrfhxlr5u7s30so7kl1w9.js"
+      async
+    ></script>
+  </body>
+</html>
